@@ -1,0 +1,57 @@
+/* BEE-OCH Authorize.Net Diagnostics – Admin Styles */
+
+.beeoch-status {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .04em;
+}
+
+.beeoch-status--completed               { background: #d7f0d3; color: #1a5c12; }
+.beeoch-status--pending                 { background: #fff3cd; color: #7a5800; }
+.beeoch-status--declined                { background: #f8d7da; color: #842029; }
+.beeoch-status--api_error               { background: #f8d7da; color: #842029; }
+.beeoch-status--network_error           { background: #f8d7da; color: #842029; }
+.beeoch-status--fatal_error             { background: #310000; color: #ff8080; }
+.beeoch-status--approved_not_registered { background: #ff5200; color: #fff; }
+.beeoch-status--transaction_saved_not_completed { background: #f5a623; color: #3d2600; }
+.beeoch-status--on_hold                 { background: #dde7f5; color: #1a4580; }
+.beeoch-status--failed                  { background: #f8d7da; color: #842029; }
+
+.beeoch-detail-table th {
+    font-weight: 600;
+    vertical-align: top;
+    padding: 8px 10px;
+}
+.beeoch-detail-table td {
+    padding: 8px 10px;
+    word-break: break-all;
+}
+
+.beeoch-code {
+    background: #1e1e1e;
+    color: #d4d4d4;
+    padding: 16px;
+    border-radius: 4px;
+    overflow-x: auto;
+    max-height: 400px;
+    font-size: 12px;
+    line-height: 1.5;
+    white-space: pre-wrap;
+    word-break: break-all;
+}
+
+.beeoch-timeline {
+    background: #f6f7f7;
+    border-left: 4px solid #2271b1;
+    padding: 12px 12px 12px 32px;
+    margin: 0 0 16px;
+    border-radius: 0 4px 4px 0;
+}
+.beeoch-timeline li {
+    margin: 4px 0;
+    font-size: 13px;
+}
